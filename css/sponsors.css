@@ -1,6 +1,6 @@
 body
 {
-	background-color:white;
+	background-color: white;
 
 }
 hr
@@ -17,14 +17,13 @@ hr
 	margin-bottom: 30px;
 	margin-top: 20px;
 }	
-#title_wrap{
 
+#title_wrap{
 	width:100%;
 	margin:0 auto;
-	height: 500px;
-	background-image: url("../Resources/sponsor_example.jpg");
+	min-height: 500px;
+	background-image: url("../Resources/sponsors_hood_panel.jpg");
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
 	position: relative;
 }
 .highlight{
@@ -35,12 +34,13 @@ hr
 
 	font-weight: 100;
 	font-size: 2.2em;
-	font-family: raleway;
+	font-family: Impact;
 	position: relative;
 	left:50;
 	top:100;
 
 }
+
 #title{
 	position:relative;
 	top:420;
@@ -79,12 +79,12 @@ hr
 	text-align: left;
 }
 #diamond{
-	background: -webkit-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
-	background: -moz-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
+	background: -webkit-linear-gradient(left,#ffccff ,#ff4dff );
+	background: -moz-linear-gradient(left,#ffccff ,#ff4dff );
 }
 
 #diamond > p{
-	color:#3399ff;
+	color:white;
 
 }
 
@@ -109,14 +109,25 @@ hr
 }
 
 #silver{
-	background: -webkit-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
-	background: -moz-linear-gradient(left,#f2f2f2 ,#a6a6a6 );
+	background: -webkit-linear-gradient(left,#a6a6a6 ,#737373 );
+	background: -moz-linear-gradient(left,#a6a6a6 ,#737373 );
+}
+
+#silver > p{
+	color:white;
+
 }
 
 #bronze{
-	background: -webkit-linear-gradient(left,#996600 ,#ffaa00 );
-	background: -moz-linear-gradient(left,#f2f2f2 ,#a6a6a6 );	
+	background: -webkit-linear-gradient(left,#cd7f32 ,#7b4d1e );
+	background: -moz-linear-gradient(left,#cd7f32 ,#7b4d1e);	
 }
+
+#bronze > p{
+	color:white;
+
+}
+
 .diamond_sponsor{
 	display:block;
 	margin:0 auto;
@@ -166,7 +177,7 @@ hr
 	margin-left: auto;
 	margin-right: auto;
 	height: 80px;
-	width: 180px;	
+	width: 120px;	
 }
 .replacement_logo{
 	margin-left: auto;

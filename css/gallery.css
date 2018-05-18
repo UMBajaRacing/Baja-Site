@@ -1,5 +1,5 @@
 body{
-	background-color: #f2f2f2;
+	background-color: #262626;
 }
 hr{
 	background-color: #00274c;
@@ -21,36 +21,38 @@ hr{
 	position: relative;
 	top:50%;
 	font-weight: 500;
-	font-size: 5em;
-	color:white;
-	font-family: lato;
+	font-size: 10em;
+	color:#ffff00;
+	font-family: Impact;
 	text-shadow:0px 5px 20px black;
 }
 #old_team
 {
 	width:100%;
 	margin-top: -20px;
-	background-color: white;
+	background-color: #404040;
 }
 #roster_title{
 	text-align: center;
 	letter-spacing: 1px;
-	font-family: montserrat;
+	font-family: Impact;
 	font-weight: 100;
 	font-size: 2.8em;	
+	color: white;
 }
 #captain_title{
-	color:#0099ff;
-	font-family: raleway;
+	color:white;
+	font-family: Impact;
 	font-weight: 100;
 	text-align: center;	
+	font-size: 2.0em;
 }
 .names li{
 	width:100%;
 	list-style-type: none;
-	color:#006bb3;
-	font-size: 2em;
-	font-family: raleway;
+	color:#0099ff;
+	font-size: 1.25em;
+	font-family: "Arial Black";
 }
 .names li p{
 	text-align: center;
@@ -62,12 +64,13 @@ hr{
 #competition_title{
 	text-align: center;
 	letter-spacing: 1px;
-	font-family: montserrat;
+	font-family: Impact;
 	font-weight: 100;
 	font-size: 2.8em;
+	color: white;
 }
 .competition{
-	font-family: "open sans";
+	font-family: "Arial";
 	-webkit-box-shadow: 0px 4px 23px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 4px 23px -6px rgba(0,0,0,0.75);
 	box-shadow: 0px 4px 23px -6px rgba(0,0,0,0.75);
@@ -126,12 +129,14 @@ hr{
 #gallery{
 	width:100%;
 	height: auto;
-	background-color:#e6e6e6; 
+	background-color:#1a1a1a; 
 }
 #gallery_title{
-	font-family: montserrat;
+	font-family: Impact;
+	font-size: 2.8em;
 	text-align: center;
 	letter-spacing: 1px;
+	color: white;
 }
 #fotorama_wrap{
 	margin: 0 auto;
@@ -141,9 +146,10 @@ hr{
     margin: 0 auto;
 }
 #fotorama_wrap > h1{
-	font-family: raleway;
+	font-family: "Arial Black";
+	font-size: 2em;
 	text-align: center;
-	color:#004f99;
+	color:#ffff00;
 	margin: 0 auto;
 	}
 

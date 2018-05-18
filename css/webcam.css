@@ -1,16 +1,18 @@
 body{
-	background-color:#f2f2f2;
+	background-color:#262626;
 }
 #title{
-	font-family: "Open Sans";
+	font-family: "Impact";
 	text-align: center;
-	color:#00274c;
-
+	color:white;
+	font-size: 2.5em;
 }
 
 .camera_title{
 	text-align: center;
-	font-family: raleway;
+	font-family: "Arial Black";
+	color: white;
+	font-size: 1.5em;
 }
 hr {
     color:#99CCFF;

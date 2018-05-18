@@ -1,7 +1,8 @@
 body{
 	height:100%;
 	width:100%;
-	font-size:100% // 16 px
+	font-size:100%;
+	background-color: #262626;
 }
 
 a:hover {
@@ -14,15 +15,15 @@ a:hover {
 	position: relative;
 	width:100%;
 	text-align: center;
-	font-family: "Open Sans";
-	font-size: 700%;
+	font-family: "Impact";
+	font-size: 800%;
 	font-weight: 100;
-	color: white;
+	color: #ffff00;
 	height: 100vh;
 	min-height:800px;
 	background-image:
 	linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-	url("../Resources/greycar.jpg");
+	url(https://media.giphy.com/media/TDLP6SEcK28aiqJhs6/giphy.gif);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -40,12 +41,14 @@ a:hover {
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
+
+/*Click to Read our News Feed Button */
 .btn-button-name, .btn-button-name:link {
 
 	border-radius: 0px;
 	background-color: transparent;
 	margin-top: 160px;
-	font-weight: 700;
+	font-weight: 300;
 	box-shadow: none;
 	color: white;
 	border: 2px solid white;
@@ -74,21 +77,46 @@ a:hover {
 #introduction{
 	padding-top: 20px;
 	padding-bottom: 100px;
-	border-top: 5px solid #ffdb4d;
-	border-bottom: 5px solid #ffdb4d;
 	min-height:800px;
 	width:100%;
-	background-color:#00274c;
+	background-image:url(../Resources/bluecar_gallery/testing6.jpg);
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 
+#introduction_2{
+	padding-top: 20px;
+	padding-bottom: 100px;
+	min-height:800px;
+	width:100%;
+	background-image:url(../Resources/2018_team_pic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#designbuildtest {
+	padding-top: 20px;
+	padding-bottom: 100px;
+	min-height:100px;
+	width:100%;
+	background: linear-gradient(to right, #000066, #00001a);
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#goblue{
+	padding-top: 20px;
+	padding-bottom: 100px;
+	min-height:100px;
+	width:100%;
+	background: #ffcc00;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .box_header{
-	color: #ffdb4d;
+	color:  #00001a;
 	font-weight: 200;
 	font-style: bold;
-	font-family: raleway;
+	font-family: "Impact";
 	text-align: center;
-	//border: 5px solid #ffdb4d;
 	margin-top: 30px;
 	margin-bottom: 15px;
 	margin-left: auto;
@@ -96,16 +124,52 @@ a:hover {
 	font-size:3em;
 }
 
-.box_header2{
-	color: #0076e6;
+.box_header_custom {
+	color: white;
 	font-weight: 200;
 	font-style: bold;
-	font-family: raleway;
+	font-family: "Impact";
 	text-align: center;
-	//border: 5px solid gray;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:4em;
+}
+
+.box_header_custom_2 {
+	color: white;
+	font-weight: 200;
+	font-style: bold;
+	font-family: "Impact";
+	text-align: center;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:3em;
+}
+
+.box_header_custom_3 {
+	color: #000099;
+	font-weight: 200;
+	font-style: bold;
+	font-family: "Impact";
+	text-align: center;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:4em;
+}
+
+
+.box_header2{
+	color: #ffff00;
+	font-weight: 400;
+	font-style: bold;
+	font-family: "Impact";
+	text-align: center;
 	padding-top: 40px;
 	margin: 0 auto;
-	font-size:1.5em;
+	font-size:2em;
 }
 
 .entry_title{
@@ -130,31 +194,52 @@ hr.blog{
 .member_notice{
  	height:auto;
 	width: 100%;
-	background-color: #ffd633;
+	background-image: url(../Resources/recruitment.jpg);
 	font-weight: 100;
 	color:black;
-	font-family: "lato";
+	font-family: "Impact";
 	font-size: 2.3em;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 #member_message{
+	color: #ffff00;
 	padding-top: 60px;
 	padding-bottom: 120px;
+	font-family: "Arial Black";
+	font-size: 0.5em;
 	margin: 0 auto;
 	width:70%;
 	text-align: center;
 }
+
 #team_description{
 	margin-top: 10px;
 	margin-bottom: 40px;
-	font-family: "Open Sans";
-	text-align: left;
+	font-family: "Arial Black";
+	text-align: center;
 	text-justify: inter-word;
-	font-weight: 100;
+	font-weight: 10;
 	font-size: 1.7em;
 	width:80%;
 	margin-left: auto;
 	margin-right:auto;
 	color:white;
+}
+
+#about_sae{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	font-family: "Arial Black";
+	text-align: center;
+	text-justify: inter-word;
+	font-weight: 10;
+	font-size: 1.7em;
+	width:80%;
+	margin-left: auto;
+	margin-right:auto;
+	color:black;
 }
 
 .achievement_image{

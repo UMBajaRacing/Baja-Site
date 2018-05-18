@@ -66,16 +66,16 @@ body{
 	padding-top: 100px;
 	min-height:800px;
 	width:100%;
-	background-color:white;
+	background-color:#262626;
 	padding-bottom: 40px;
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 
 }
 .box_header{
-	color: #00274c;
+	color: white;
 	font-weight: 200;
 	font-style: bold;
-	font-family: raleway;
+	font-family: Impact;
 	text-align: center;
 	margin: 15px auto;
 	font-size:3em;
@@ -130,14 +130,14 @@ hr.blog{
 }
 #contact_info{
 	margin-top: 10px;
-	font-family: "Open Sans";
+	font-family: "Arial Black";
 	text-align: left;
 	font-weight: 100;
-	font-size: 1.7em;
+	font-size: 1.1em;
 	width:80%;
 	margin-left: auto;
 	margin-right:auto;
-	color:#00274c;
+	color:#ffff00;
 }
 #contact_info a {
 	color: #50A6C2;
@@ -245,7 +245,10 @@ hr.blog{
 }
 
 span.contact {
-	color: #0099ff;
+	color: #ffff00;
+	font-family: "Arial Black";
+	font-size: 1.3em;
+	font-weight: 300;
 }
 
 .map_wrapper {
