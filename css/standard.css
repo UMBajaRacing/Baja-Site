@@ -113,10 +113,7 @@
 }
 .social li>a:hover,
 .social li>a:focus {
-	-webkit-transition: -webkit-filter .75s;
-    -moz-transition: -webkit-filter .75s;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+    border-radius: 10px;
 }
 
 .dropdown-menu {
