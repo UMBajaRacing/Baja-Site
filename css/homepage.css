@@ -15,10 +15,10 @@ a:hover {
 	position: relative;
 	width:100%;
 	text-align: center;
-	font-family: "Impact";
-	font-size: 800%;
+	font-family: "lato";
+	font-size: 500%;
 	font-weight: 100;
-	color: #ffff00;
+	color: #fff;
 	height: 100vh;
 	min-height:800px;
 	background-image:
@@ -27,6 +27,10 @@ a:hover {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+
+.team_title {
+	text-align: center;
 }
 .center_label_inner{
 	position: relative;
@@ -112,10 +116,10 @@ a:hover {
 	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .box_header{
-	color:  #00001a;
+	color:  #fff;
 	font-weight: 200;
 	font-style: bold;
-	font-family: "Impact";
+	font-family: "open sans";
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 15px;
@@ -136,18 +140,6 @@ a:hover {
 	font-size:4em;
 }
 
-.box_header_custom_2 {
-	color: white;
-	font-weight: 200;
-	font-style: bold;
-	font-family: "Impact";
-	text-align: center;
-	margin-top: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size:3em;
-}
-
 .box_header_custom_3 {
 	color: #000099;
 	font-weight: 200;
@@ -158,18 +150,6 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 	font-size:4em;
-}
-
-
-.box_header2{
-	color: #ffff00;
-	font-weight: 400;
-	font-style: bold;
-	font-family: "Impact";
-	text-align: center;
-	padding-top: 40px;
-	margin: 0 auto;
-	font-size:2em;
 }
 
 .entry_title{
@@ -192,22 +172,22 @@ hr.blog{
 	color:white;
 }
 .member_notice{
- 	height:auto;
-	width: 100%;
-	background-image: url(../Resources/recruitment.jpg);
-	font-weight: 100;
-	color:black;
-	font-family: "Impact";
-	font-size: 2.3em;
+	padding-top: 20px;
+	padding-bottom: 100px;
+	min-height:300px;
+	width:100%;
+	background-image:url(../Resources/recruitment.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	box-shadow:3px 2px 5px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	font-size: 2.3em;
 }
 
 #member_message{
-	color: #ffff00;
-	padding-top: 60px;
-	padding-bottom: 120px;
-	font-family: "Arial Black";
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "open sans";
 	font-size: 0.5em;
 	margin: 0 auto;
 	width:70%;
@@ -217,10 +197,9 @@ hr.blog{
 #team_description{
 	margin-top: 10px;
 	margin-bottom: 40px;
-	font-family: "Arial Black";
+	font-family: "open sans";
 	text-align: center;
 	text-justify: inter-word;
-	font-weight: 10;
 	font-size: 1.7em;
 	width:80%;
 	margin-left: auto;
@@ -228,18 +207,32 @@ hr.blog{
 	color:white;
 }
 
+.explanation_boxes {
+	background: rgba(153, 153, 153, 0.6);
+	border-radius: 10px;
+	font-size: 10px;
+}
+
+#about_sae a {
+	color: #ffff00;
+}
+
+body #about_sae a:hover {
+	color: white;
+    -webkit-transition: color 0.8s;
+}
+
 #about_sae{
 	margin-top: 10px;
 	margin-bottom: 40px;
-	font-family: "Arial Black";
+	font-family: "open sans";
 	text-align: center;
 	text-justify: inter-word;
-	font-weight: 10;
 	font-size: 1.7em;
 	width:80%;
 	margin-left: auto;
 	margin-right:auto;
-	color:black;
+	color:#fff;
 }
 
 .achievement_image{
@@ -276,7 +269,7 @@ hr.blog{
 	font-size: 100%;
 	font-family: raleway;
 	padding: 3px;
-	//border: 3px solid yellow;
+	/*border: 3px solid yellow;*/
 	margin: auto;
 	top: 20%;
 	bottom: 0;
@@ -376,9 +369,9 @@ hr.blog{
 	.member_notice{
 		padding-bottom: 100px;
 	}
-	.
+
 	.achievements{
-		//height: 20vh;
+		/*height: 20vh;*/
 	}
 	.text_picture{
 		margin-top: 100px;
@@ -436,7 +429,7 @@ hr.blog{
 @media (min-width: 1400px) {
 
 	.achievements{
-	//	max-height:70vh;
+	/*	max-height:70vh;*/
 	}
 }
 @media (max-width: 600px) {

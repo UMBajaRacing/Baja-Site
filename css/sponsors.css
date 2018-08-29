@@ -113,26 +113,38 @@ hr
 	text-align: left;
 
 }
+.platinum_company {
+	max-height: 210px;
+	max-width: 280px;
+}
 .gold_company{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	/*height: 200px;
-	width: 200px;*/
+	max-height: 200px;
+	max-width: 260px;
+}
+.gold_container {
+	vertical-align: middle;
+	height: 220px;
+}
+.gold_box {
+	vertical-align: middle;
+	display: inline-block;
 }
 .silver_company{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 150px;
-	width: 150px;	
+	max-height: 150px;
+	max-width: 220px;	
 }
 .bronze_company{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 80px;
-	width: 120px;	
+	max-height: 120px;
+	max-width: 160px;	
 }
 .replacement_logo{
 	margin-left: auto;
@@ -145,8 +157,8 @@ hr
 .replacement_logo_gold{
 	margin-left: auto;
 	margin-right: auto;
-	height:200px;
-	width:300px;
+	height:100px;
+	width:200px;
 	border-radius: 10px;
 	border:solid #0099ff;
 }
@@ -157,8 +169,7 @@ hr
 }
 .replacement_logo h4{
 	position: relative;
-	top:20%;
-	vertical-align: center;
+	vertical-align: middle;
 	text-align: center;
 	color:#0099ff;
 }
@@ -171,8 +182,7 @@ hr
 }
 .replacement_logo_gold > h4{
 	position: relative;
-	top:30%;
-	vertical-align: center;
+	vertical-align: middle;
 	text-align: center;
 	color:#0099ff;
 }
